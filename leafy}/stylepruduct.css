@@ -1,0 +1,25 @@
+section .barra-productos{
+    height: 60px;
+}
+
+.barra-productos hr{
+    color: #13131325;
+    align-items: center;       
+    border-bottom: 1px solid #13131308;
+    padding-left: 90px;
+    margin-left: 80px;
+    padding-right: 90px;
+    margin-right: 80px;
+}
+
+.barra-productos h3{
+    color: #131313;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 30px;
+    padding-left: 60px;
+    margin-left: 21px;
+    font-weight:bolder;
+    height: 20px;
+}
