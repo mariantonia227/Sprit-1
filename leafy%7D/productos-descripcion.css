@@ -1,0 +1,166 @@
+
+.producto-informacion {
+    display: flex;
+    justify-content: center;  /* centra los bloques */
+    align-items: flex-start;  /* alinea arriba */
+    gap: 60px;                
+    padding: 20px;
+    margin-left: 80px;
+    padding: 110px 50px;
+}
+
+
+
+.Producto-muestra {
+    flex: 0 0 550px;
+}
+
+
+
+
+.Producto-muestra img {
+    width: 100%;
+    max-width: 650px;     
+    height: 100%;
+    max-height: 900px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;       
+}
+
+.descripcion{
+    flex: 1;
+}
+
+
+.descripcion h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #1d1d1d;
+    margin-bottom: 10px;
+}
+
+.descripcion p {
+    font-size: 16px;
+    line-height: 1.6;     /* separación entre líneas */
+    color: #4a4a4a;       
+    margin-bottom: 15px;  /* espacio debajo del párrafo */
+    text-align: justify;  /* se ve más parejo */
+    max-width: 500px; /* Limita el ancho del párrafo */
+}
+
+.precio {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0;
+}
+
+.precio-simbolo {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+.tallas h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.tallas {
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start; 
+    gap: 8px;
+}
+
+.opcion-tallas {
+    display: flex;
+    gap: 10px;
+}
+
+
+.btn-tallas {
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    display: block;
+}
+
+.tallas a{
+    text-decoration: none;
+    color: #131313;
+}
+
+.btn-tallas:hover{
+    background-color: #e8e8e8;
+}
+
+
+.contenedor-botones{
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  margin-top: 15px;
+}
+
+
+
+.añadir-carrito {
+    padding: 16px 30px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: none;
+    background: #c6db00;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.2s ease;
+    color: #f2f2f2;
+}
+
+.añadir-carrito:hover {
+    background-color: #e8e8e8;
+}
+
+.corazon-btn {
+    padding: 5px 15px;
+    border-radius: 80px;
+    font-size: 18px;
+    border: 0px solid #ccc;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-left: 10px;
+}
+
+.corazon-btn:hover {
+    background: #f2f2f2;
+}
+
+.corazon-btn.active {
+    border-color: red;
+}
+
+.corazon-btn.active .corazon-icon {
+    color: red;
+}
+
+.corazon-icon {
+    font-size: 40px;
+    color: #131313;
+    transition: 0.2s;
+}

@@ -1,0 +1,163 @@
+.barra-productos{
+    padding: 10px 80px;
+}
+
+.barra-productos hr {
+    margin-top: -50px;   /* Acerca el hr hacia .productos-header */
+    margin-bottom: 0;
+    border: none;      
+    border-top: 1px solid #ccc; /* línea delgada */
+}
+
+.productos-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.barra-productos h3{
+    color: #131313;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight:lighter;
+    padding: 10px 20px;
+    margin-left: -20;
+}
+
+
+
+.filtros {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-filtro {
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    display: block;
+}
+
+.btn-filtro a{
+    text-decoration: none;
+    color: #131313;
+}
+
+
+
+
+
+
+.categorias-lista {
+    position: relative;
+}
+
+
+
+.lista-categorias {
+    position:absolute;
+    top: 45px; 
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-top: 2px;
+    width: 160px;
+    display: none; 
+    z-index: 10;
+}
+
+.lista-categorias a{
+    text-decoration: none;
+    color: #131313;
+    display: block;
+}
+
+.lista-categorias li a {
+    list-style: none;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.lista-categorias li a:hover {
+    background-color: #f0f0f0;
+}
+
+
+.btnCategorias {
+    background-color: #C6DB15;
+    color: white;
+    border: none;
+}
+
+.btn-filtro:hover {
+    background-color: #e8e8e8;
+}
+
+.lista-categorias {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.contenedor-productos{
+    padding: 10px 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.producto {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.207);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    width: 18%;
+    height: 10%;
+    text-decoration: none;
+
+}
+
+
+
+.producto h3 p small {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.producto h3{
+    font-weight: bold;
+    color: #131313;
+}
+
+.producto p{
+    color:#C6DB15;
+}
+
+.producto small{
+    color: #2d2c2c76;
+}
+
+
+.producto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.producto:hover {
+    background-color: #ebeaeaca;
+}
