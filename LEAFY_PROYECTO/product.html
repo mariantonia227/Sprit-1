@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylepruduct.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <section>
+      <header>
+    <div class="barra-menu">
+        <a href="index.html"><img src="IMG-20251024-WA0034-removebg-preview.png" alt=""></a>
+        <nav>
+          <div class="buscador-menu">
+                    <input type="text" placeholder="Buscar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="btn-login">Log in</a></li>
+                <a href="#carrito" class="btn-carrito">Carrito</a>
+              </ul>
+            </nav>
+          </div>
+          <div class="modal" id="modalLogin">
+            <div class="modal-contenido">
+              <div class="modal-img">
+              </div>
+                    <div class="modal-info">
+                      <span class="cerrar" id="btn-cerrar">&times;</span>
+                      <h2>Iniciar Sesión/Registrarse</h2>
+                      <label>Email:</label>
+                      <input type="email" placeholder="Ingresa tu correo">
+                      <label>Contraseña:</label>
+                      <input type="password" placeholder="Ingresa tu contraseña">
+                      <button class="btn-login">CONTINUAR</button>
+                    </div>
+                  </div>
+                </div>
+      </header>
+</section>
+<br>
+<br>
+
+<section>
+  <div class="barra-productos">
+    <div class="productos-header">
+   <h3>Productos</h3>
+   <div class="filtros">
+    <div class="categorias-lista">
+    <button class="btn-filtro btnCategorias" id="btnCategorias">Categorías</button>
+        <ul class="lista-categorias" id="listaCategorias">
+          <li><a href="#mujer">Mujer</a></li>
+          <li><a href="#hombre">Hombre</a></li>
+          <li><a href="#niño">Niño</a></li>
+          <li><a href="#niña">Niña</a></li>
+        </ul>
+    </div>
+    <li class="btn-filtro"><a href="#a-z">A-Z</a></li>
+    <li class="btn-filtro"><a href="#rango-de-precio">Rango de precio</a></li>
+  </div>
+    </div>
+   <hr>
+  </div>
+</section>
+
+<section>
+  <div class="contenedor-productos">
+  <a  href="camisa-M-para-hombre.html"   class="producto">
+    <img src="image 1.png" alt="Producto 1">
+    <h3>Camiseta Hombre</h3>
+    <p>$49.900</p>
+    <small>Para Hombre - Talla: M</small>
+  </a>
+
+  <a href="camisa-S-para-mujer.html" class="producto">
+    <img src="image 2.png" alt="Producto 2">
+    <h3>Blusa</h3>
+    <p>$39.900</p>
+    <small>Para Mujer - Talla: S</small>
+  </a>
+
+</section>
+<br>
+<br>
+<br>
+    <section>
+      <footer>
+        <div class="parte-abajo">
+          <h4>Ayuda e Información</h4>
+          <ul>
+            <li><a href="#">Contactanos</a></li>
+            <li><a href="#">Politica de Envios</a></li>
+            <li><a href="#">Terminos y Condiciones de ventas</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+          </ul>
+        </div>
+    
+        <div class="parte-abajo">
+          <h4>Sobre nosotros</h4>
+          <ul>
+            <li><a href="index.html#quienes">Quiénes somos</a></li>
+            <li><a href="index.html#proyecto">Sobre el proyecto</a></li>
+          </ul>
+        </div>
+
+                <div class="redes">
+          <h4>Donde encontrarnos</h4>
+          <ul>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+          </ul>
+        </div>
+    
+        <div class="slogan">
+          <div class="imagen-sloga">
+        <img src="Rectangle 26.png" alt="imagen del slogan"  width="600" height="300">
+    </div>
+          <br>
+          <p><span>Leafy</span><br>¡Ropa <br> sostenible <br> para todo el <br> mundo!</p>
+        </div>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+    <script src="producto.js"></script>
+</body>
+</html>
